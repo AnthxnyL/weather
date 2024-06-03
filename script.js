@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
 
             const img = document.querySelector(".img");
-            img.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('./img/${data.weather[0].main}.jpg')`;
+            img.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('./images/${data.weather[0].main}.jpg')`;
             console.log("fae");
             img.classList.add("fadeInUp");
         })
